@@ -1,0 +1,176 @@
+#title {
+    background-color: #ff4c68;
+    color: white;
+    padding: 30px 100px;
+    font-size: 3.5rem;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+
+}
+
+.navbar-brand:link {
+    font-family: sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+ 
+}
+
+.cont {
+    padding: 2% 10% 7%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    padding: 0 20px 20px;
+}
+
+
+.nav-item {
+    padding: 18px 20px;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 20px;
+    padding:0px 20px;
+    margin-right:20%;
+
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.pic {
+    width: 250px;
+    height: 600;
+    transform: rotate(25deg);
+    position:absolute;
+    margin-right:30%
+
+}
+
+
+#features {
+    padding: 9% 14%;
+    background-color:white;
+    position:relative;
+    z-index:1;
+}
+
+.feature-box-one {
+    text-align: center;
+    padding: 5%;
+    font-weight: bolder;
+}
+
+p {
+    color: gray;
+    font-weight: lighter;
+    padding: 0px 30px;
+}
+
+.icon {
+    color: #ff4c68;
+    margin-bottom: 3px;
+}
+
+.icon:hover {
+    color: #f32a48;
+}
+
+#testimonials {
+
+    background-color: #ff4762;
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    padding: 50px 20px;
+    font-size: 3rem;
+ 
+}
+
+.dog-img {
+    width: 14%;
+    border-radius: 100%;
+    margin: 25px;
+
+}
+
+.add {
+    padding: 20px 20px;
+
+}
+
+#press {
+    text-align: center;
+    background-color: #ff4762;
+    padding: 20px 30px;
+}
+
+.carousel-item {
+    padding: 30px 20px;
+}
+
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+
+.pricing-coloumn{
+    padding: 3% 2%;
+}
+
+#cta{
+    text-align: center;
+    padding-top:20px;
+    color:white;
+    background-color: #ff4c68;
+}
+
+.last-heading{
+    font-size:40px;
+    padding:2px 15px;
+    font-family:'Montserrat', sans-serif;
+}
+
+#footer{
+    background-color:#ff4c68;
+    padding:0px;
+}
+
+.lastpara{
+    color:white;
+    padding:0px;
+   
+}
+
+@media (max-width:1036px){
+    .pic{
+        position:static;
+        transform:rotate(0); 
+    }
+
+    #title{
+        text-align:center;
+    }
+
+}
